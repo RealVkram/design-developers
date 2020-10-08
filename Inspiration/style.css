@@ -1,0 +1,15 @@
+section {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: center;
+}
+
+div {
+  background: grey;
+  width: 100px;
+}
